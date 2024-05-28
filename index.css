@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+}
+.Video {
+    position: fixed;
+    z-index: 20;
+    background-color: transparent;
+    min-width: 75%;
+    min-height: 75%;
+    margin-left: 10%;
+    top: 10%;
+    border: 0px white solid;
+    }
