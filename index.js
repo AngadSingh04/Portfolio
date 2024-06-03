@@ -27,3 +27,27 @@ document.addEventListener("DOMContentLoaded", function () {
         observer.observe(section);
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get all the links in the navigation
+    const navLinks = document.querySelectorAll('nav ul li a');
+
+    // Add event listeners to each link
+    navLinks.forEach(link => {
+        link.addEventListener('click', smoothScroll);
+    });
+
+    // Function to handle smooth scrolling
+    function smoothScroll(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href'); // Get the target section's id
+        const targetSection = document.querySelector(targetId); // Find the target section
+        const offsetTop = targetSection.offsetTop; // Get the top position of the target section
+
+        // Scroll smoothly to the target section
+        window.scrollTo({
+            top: offsetTop,
+            behavior: 'smooth'
+        });
+    }
+});
