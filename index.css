@@ -23,7 +23,7 @@ nav {
     position: fixed;
     top: 130px;
     width: 100%;
-    z-index: 2;
+    z-index: 10;
     padding-left: 40px;
 }
 nav ul {
@@ -36,7 +36,7 @@ nav ul {
 
 nav ul li {
     /* margin: 10px; */
-    margin-left: 60px;
+    margin-left: 40px;
     margin-right: 0px;
     font-weight: bolder;
 }
@@ -59,10 +59,11 @@ nav ul li a {
 }
 
 .intro{
-    height: 500px;
+    height: 450px;
     background-color: #151515;
     display: flex;
     align-items: flex-start;
+    
 }
 .box {
     margin-left: 50px;
@@ -77,4 +78,67 @@ nav ul li a {
     color: #EEEEEE;
     font-size: 20px;
     line-height: 1;
+}
+
+#about {
+    /* position: absolute; */
+    height: 850px;
+    background-color: #151515;
+    display: flex;
+    align-items: flex-start;
+}
+
+.main-div{
+    height: 800px;
+    width: 1200px;
+    background-color: #A91D3A;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.main-div p{
+    padding-left: 5px;
+    font-family: "Quicksand", sans-serif;
+    padding-top: 400px;
+    position: absolute;
+    z-index: 2;
+    color: #EEEEEE;
+    font-size: 100px;
+    /* font-weight: bolder; */
+}
+/* .highlight{
+    color: #A91D3A;
+    
+} */
+.main-div img{
+    height: 700px;
+    width: 650px;
+    position: absolute;
+    padding-left: 500px;
+    padding-top: 50px;
+}
+
+.about-me{
+    height: 600px;
+    background-color: #151515;
+    display: flex;
+    align-items: flex-start;
+}
+.about-me h1{
+    margin-top: 50px;
+    font-size: 40px;
+    color: #EEEEEE;
+    font-weight: bolder;
+    padding-left: 550px;
+    position: absolute;
+}
+.about-box {
+    margin-left: 0px;
+    margin-top: 120px;
+    padding: 0px; 
+    padding-left: 550px;
+    
+    max-width: 500px;
+}
+.about-box p{
+    color: #EEEEEE;
 }
