@@ -6,3 +6,4 @@ function scrollFunction() {
 
     document.getElementById("angad-heading").style.opacity = opacity;
 }
+

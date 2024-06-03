@@ -142,3 +142,49 @@ nav ul li a {
 .about-box p{
     color: #EEEEEE;
 }
+
+#work{
+    height: 600px;
+    /* background-color: aqua  ; */
+    background-color: #151515;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+#work p{
+    margin: 0;
+    color: #C73659;
+    /* color: #EEEEEE; */
+    padding: 80px 50px;
+    font-size: 50px;
+    z-index: 1;
+    position: relative;
+}
+#work p::after {
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: -100%; /* Initially hide the pseudo-element */
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to right, transparent, #ffffff); /* Gradient from transparent to white */
+    z-index: 0; /* Behind the text */
+    animation: reveal 5s forwards; /* Animation to reveal the background */
+}
+
+@keyframes reveal {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 0; /* Keep the background in its final position */
+    }
+}
+.work-highlight{
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+
+
