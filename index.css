@@ -171,7 +171,7 @@ nav ul li a {
 }
 
 #work{
-    height: 1400px;
+    height: 1500px;
     /* background-color: aqua  ; */
     background-color: #151515;
     position: relative;
@@ -267,6 +267,32 @@ nav ul li a {
     height: 350px ; 
     width: 400px;
     margin: 25px;
+}
+
+.notenest-text h2{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.notenest-text a{
+    color: #EEEEEE;
+    text-decoration: none;
+    /* margin-top: 40px; */
+}
+.notenest-text a:hover{
+    text-decoration:underline;
+}
+
+.c3v-text h2{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.c3v-text a{
+    color: #EEEEEE;
+    text-decoration: none;
+    /* margin-top: 40px; */
+}
+.c3v-text a:hover{
+    text-decoration:underline;
 }
 
 
