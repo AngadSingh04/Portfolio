@@ -223,6 +223,7 @@ nav ul li a {
     margin-left: 100px;
     margin-top: 40px;
     text-align: center;
+    border-radius: 20px;
     
 }
 
@@ -231,6 +232,7 @@ nav ul li a {
     height: 350px ; 
     width: 400px;
     margin: 25px;
+    border-radius: 20px;
     
 }
 
@@ -254,6 +256,7 @@ nav ul li a {
     margin-top: 40px;
     max-width: 50%; 
     text-align: center;
+    border-radius: 20px
 }
 
 
@@ -267,6 +270,7 @@ nav ul li a {
     height: 350px ; 
     width: 400px;
     margin: 25px;
+    border-radius: 20px;
 }
 
 .notenest-text h2{
