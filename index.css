@@ -103,7 +103,7 @@ nav ul li a {
 .box p {
     /* margin-top: 50px; */
     color: #EEEEEE;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1;
 }
 
@@ -295,7 +295,41 @@ nav ul li a {
     text-decoration:underline;
 }
 
+#contact {
+    height: 600px;
+    background-color: #151515;
+    /* display: flex;
+    align-items: flex-start; */
+}
+#contact h1{
+    padding: 100px 100px 0 100px;
+    font-size: 70px;
+    color: #A91D3A;
+}
+ 
+.contact-box{
+    margin-left: 120px;
+    margin-top: 40px;
+    max-width: 600px;
+    font-size: 50px;
+    color: #EEEEEE;
+}
+.contact-link a{
+    text-decoration: underline;
+    color: #EEEEEE
+}
+.contact-link a:hover{
+    text-decoration: none;
+    color: #A91D3A;
+}
 
+.social-link a{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+.social-link a:hover{
+    color: #A91D3A;
+}
 
 
 
