@@ -11,18 +11,18 @@ body, h1 {
 .section-line {
     content: "";
     display: block;
-    width: 0; /* Start with the line hidden */
-    height: 4px; /* Line thickness */
-    background-color: #A91D3A; /* Line color */
-    margin: 50px auto; /* Center the line */
-    transition: width 1s ease-in-out; /* Animation */
+    width: 0; 
+    height: 4px; 
+    background-color: #A91D3A; 
+    margin: 50px auto; 
+    transition: width 1s ease-in-out; 
 }
 
 section:hover .section-line {
-    width: 90%; /* Final width of the line on hover */
+    width: 90%; 
 }
 
-/* To make the animation work when the section comes into view */
+
 @keyframes revealLine {
     from {
         width: 0;
